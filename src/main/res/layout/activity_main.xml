@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfield">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/playerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="133dp"
+            android:background="@color/colorPlayer1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Player 1"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <EditText
+            android:id="@+id/playerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="182dp"
+            android:background="@color/colorPlayer2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Player 2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playerOne" />
+
+        <Button
+            android:id="@+id/startGame"
+            android:layout_width="224dp"
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="93dp"
+            android:layout_marginLeft="98dp"
+            android:layout_marginTop="336dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginBottom="140dp"
+            android:text="Start Game"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/exitGame"
+            android:layout_width="237dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginEnd="89dp"
+            android:layout_marginBottom="0dp"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

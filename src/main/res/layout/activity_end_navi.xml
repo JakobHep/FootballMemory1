@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndNavi">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/winner"
+            android:layout_width="307dp"
+            android:layout_height="68dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="102dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="307dp"
+            android:layout_height="68dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="189dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="205dp" />
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="168dp"
+            android:layout_height="69dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="284dp"
+            android:text="to Menu"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="379dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
